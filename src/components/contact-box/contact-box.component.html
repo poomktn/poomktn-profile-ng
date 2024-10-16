@@ -1,0 +1,26 @@
+<Box color="orange">
+  <div class="mb-1">
+    <b>Tel: </b><span>{{ TELEPHONE_NUMBER }}</span>
+  </div>
+  <div class="flex">
+    <b>Email:</b>&nbsp;<span>kuntanut.s&#64;gmail.com</span>&nbsp;
+    <div class="relative no-print cursor-default">
+      <div
+        class="bg-black txt-white border-black text-center"
+        style="width: 20px"
+        (mouseenter)="setTooltip(true)"
+        (mouseleave)="setTooltip(false)">
+        ?
+      </div>
+      <div *ngIf="mailTooltip" class="tooltip pa-1 bg-black txt-white border-black">
+        <span>
+          Email is difference from name because I try my name as email but got invalid, so I
+          decide to change vowels of my name
+        </span>
+      </div>
+    </div>
+  </div>
+  <!-- <div>
+    <b>Github:</b> <a :href="GITHUB_LINK" target="_blank">{{ GITHUB_LINK }}</a>
+  </div> -->
+</Box>

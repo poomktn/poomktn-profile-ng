@@ -1,0 +1,4 @@
+<div [ngClass]="['pa-2', 'border-'+color, class]">
+  <h3 *ngIf="title" [ngClass]="['txt-'+color,'text-center']">{{ title }}</h3>
+  <ng-content />
+</div>
