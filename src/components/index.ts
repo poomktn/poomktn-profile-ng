@@ -7,7 +7,6 @@ import { IntroduceBox } from './introduce-box/introduce-box.component';
 import { SkillBox } from './skill-box/skill-box.component';
 import { SystemBox } from './system-box/system-box.component';
 import { Main } from './main/main.component';
-import { GoogleMap } from './google-map/google-map.component';
 
 export {
   Box,
@@ -18,6 +17,5 @@ export {
   IntroduceBox,
   SkillBox,
   SystemBox,
-  GoogleMap,
-  Main
+  Main,
 };
