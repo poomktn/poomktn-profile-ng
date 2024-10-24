@@ -23,7 +23,7 @@
   },
   {
     "site": "poomktn-profile-ng",
-    "public": "dist",
+    "public": "dist/browser",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
       {
